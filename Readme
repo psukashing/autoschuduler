@@ -1,0 +1,32 @@
+FINAL PROJECT ASSIGNMENT
+New sample employee file: https://psu.box.com/s/jlf2sszdw1pz8eqbcpoj6ehwgavwimm9 (Links to an external site.)Links to an external site.
+
+Schedule people into needed slots in department/day/shifts.
+Employees must be certified in the department to be scheduled there.
+Employees can not work two shifts in a row.
+If an employee is scheduled off, that employee can not be scheduled at any time on the day off (even 11 PM-midnight).
+Do not schedule more than the needed number of employees per employee type/department/day/shift.
+Part time people should not be scheduled until all of the possible full time shifts have been scheduled.
+Employees can not work both Saturday and Sunday of the same week (contiguous).
+Attempt to schedule employees for their preferred shift.
+Calculate the total schedule cost (does not include requested days off)
+Calculate "employee happiness" (# shifts which match the employees preferred shift as a percentage of all of their shifts).
+Calculate the number of unused shifts for (1) full time and (2) part time employees. These are shifts that are available to be worked but the employee was not scheduled anywhere. (E.g., for full time: 10 shifts available - 8 shifts scheduled = 2 unused shifts)
+Be prepared to get new data files a few days before the project is due (therefore do not hard code anything based on the files given). You can assume that the shift types (7-3 etc) will not change.
+Your solution has to be primarily SQL/RDBMS not solving the whole thing and uploading the answer.
+if someone is not scheduled, their happiness is .5
+a report of unfilled vacancies
+"full utilization" means that at least 95% of the employee shifts are assigned somewhere.
+Extra 10% to those who obtain a schedule with full utilization and the lowest cost (not counting scheduled days off) <-- shared among all who attain these.
+
+Extra 10% to those who obtain a schedule with full utilization and the best average "employee happiness" <-- shared among all who attain these.
+
+ 
+
+HINT: Dynamically create SQL statements to do the schedule in stages. THINK FIRST, code afterwards.
+
+You can work in pairs if you want to. A "pair" means TWO people. If you work in a pair, submit a solution with both names included in the documentation, and submit it ONLY ONCE.
+
+(MORE DETAILS TO COME)
+
+ 
